@@ -1,0 +1,405 @@
+*{
+
+padding:0;
+margin:0;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-o-box-sizing:border-box;
+
+
+}
+body{
+	
+font-family:Arial;	
+
+}
+h1, h3,p,a,label{
+color:#fff;	
+	
+}
+.container{
+  
+   width:90%;
+   margin:0 auto;
+  
+}
+.clearfix{
+	clear:both;
+}
+.main-color{
+	color:#e16d62;
+}
+.bg-color{
+	background-color:#e16d62;
+}
+.img-responsive{
+	
+	width:100%;
+	max-width:100%;
+	display:block;
+}
+.border-color{
+	border:1px solid #e16d62;
+}
+nav{
+	
+	background:#000;
+	overflow:hidden;
+	height:60px;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:2;
+}
+nav .logo{
+	display:inline-block;
+	font-size:20px;
+	float:left;
+	width:60%;
+	padding:20px 0;
+	
+}
+nav .menu-button{
+	display:none;
+	padding:20px 10px;
+	font-size:20px;
+	float:right;
+	width:40%;
+}
+
+nav ul {
+	
+	float:right;
+	width:40%;
+	list-style-type:none;
+}
+ul li{
+	float:left;
+	
+	
+}
+nav ul li a{
+	display:block;
+	padding:22px;
+	
+	text-decoration:none;
+}
+
+nav ul li:hover{
+	
+	background:#e16d62;
+}
+header{
+	
+	background:url("../images/4.jpg") no-repeat;
+	background-size:cover;
+	height:700px;
+	position:relative;
+}
+header h1{
+	
+	position:absolute;
+	top:50%;
+	left:40%;
+	font-size:60px;
+	letter-spacing: 2px;
+	
+	
+}
+header .overlay{
+	background:rgba(0,0,0,0.7);
+	height:100%;
+	width:100%;
+	
+}
+.product{
+	
+	padding:50px 0;
+	text-align:center;
+	overflow:hidden;
+	
+}
+.product h2{
+	font-size:30px;
+	margin:30px 0;
+	
+}
+.product .cate{
+	
+	float:left;
+     width:31.3333%;
+	margin-right:2%;
+	margin-bottom:25px;
+	cursor:pointer;
+	transition:all .5s ease-in-out;
+	
+}
+.product .cate img:hover{
+	border:1px solid #000;
+}
+.product .cate img{
+	
+	height:200px;
+	
+}
+.contact-us{
+	padding:50px 0;
+	background:#333;
+	overflow:hidden;
+	
+	
+}
+.contact-us .info{
+	
+	float:left;
+	width:60%;
+	
+}
+.contact-us  .contact-form{
+	float:left;
+	width:40%;
+	
+	
+}
+
+
+.contact-us  .contact-form form input{
+	
+	display:block;
+	width:320px;
+	padding:10px;
+	margin-bottom:10px;
+	
+	background:transparent;
+	
+}
+.contact-us  .contact-form form textarea{
+	display:block;
+	width:320px;
+	height:200px;
+	padding:10px;
+	margin-bottom:10px;
+	
+	background:transparent;
+	
+}
+.contact-us  .contact-form form input[type="submit"]{
+	background:#e16d62;
+	height:40px;
+	color:#fff;
+	cursor:pointer;
+	width:325px;
+}
+
+.contact-us  h2{
+	margin:30px 0;
+}
+.contact-us  p{
+	margin:30px 0;
+}
+footer{
+	padding:30px 0;
+	color:#fff;
+	text-align:center;
+	background:#000;
+}
+
+/*Media Query*/
+	
+@media(min-width:100px)and (max-width:399px){
+      .container {
+        width:90%;
+		margin:0 auto;
+      }
+	  nav{
+		  height:auto;
+		  position:absolute;
+		   width:100%;
+	  }
+	  
+	  nav ul{
+		  
+		 
+		  width:100%;
+         	 
+	  }
+	   nav ul li{
+		  text-align:center;
+		 display:block;
+	     width:100%;
+         	 
+	  }
+	  nav .logo{
+		  float:left;
+		  width:70%;
+	  }
+	  nav .menu-button{
+	 display:block;
+	  float:right;
+	  width:30%;
+	  cursor:pointer;
+     }
+	   header h1{
+		 font-size:22px; 
+		 top:60%;
+		 left:30%;
+	  }
+	  .product .cate{
+	
+	   float:none;
+       width:100%;
+	 
+     }
+	 .contact-us .info{
+	
+	float:none;
+	width:100%;
+	
+}
+.contact-us  .contact-form{
+	float:none;
+	width:100%;
+	
+}
+.contact-us  .contact-form form input{
+	
+	
+	width:200px;
+}
+.contact-us  .contact-form form textarea{
+	
+	width:200px;
+}
+.contact-us  .contact-form form input[type="submit"]{
+	
+	width:220px;
+}
+
+}
+	
+@media(min-width:400px)and (max-width:800px){
+      .container {
+        width:90%;
+		margin:0 auto;
+      }
+	  nav{
+		  height:auto;
+		  position:absolute;
+		   width:100%;
+	  }
+	  
+	  nav ul{
+		  
+		 
+		  width:100%;
+         	 
+	  }
+	   nav ul li{
+		  text-align:center;
+		 display:block;
+	     width:100%;
+         	 
+	  }
+	  nav .logo{
+		  display:block;
+		  float:left;
+		  width:70%;
+	  }
+	  nav .menu-button{
+		  
+	  display:block;
+	  float:right;
+	  width:30%;
+	  cursor:pointer;
+     }
+	  nav ul li a{
+	 
+	
+	
+}
+	  header h1{
+		 font-size:2em; 
+		text-align:center;
+	  }
+	  .product .cate{
+	
+	   float:left;
+       width:48%;
+	   margin-right:2%;
+	 
+     }
+	 .contact-us .info{
+	
+	float:none;
+	width:100%;
+	
+}
+.contact-us  .contact-form{
+	float:none;
+	width:100%;
+	
+	
+	
+}
+.contact-us  .contact-form form input{
+	
+	
+	min-width:280px;
+}
+.contact-us  .contact-form form textarea{
+	
+	min-width:280px;
+}
+
+}
+@media(min-width:801px)and (max-width:1200px){
+      .container {
+        width:80%;
+		margin:0 auto;
+      }
+	  nav .logo{
+		 float:left; 
+		width:40%;  
+	  }
+	 nav ul {
+	
+	float:right;
+	width:60%;
+	list-style-type:none;
+}
+
+	  header h1{
+		 font-size:40px; 
+		 text-align:center;
+	  }
+	  .product .cate{
+	
+	   float:left;
+       width:48%;
+	   margin-right:2%;
+	 
+     }
+	 .contact-us .info{
+	
+	float:left;
+	width:40%;
+	
+}
+.contact-us  .contact-form{
+	float:right;
+	width:60%;
+	
+}
+.contact-us  .contact-form form input{
+	
+	
+	min-width:300px;
+}
+.contact-us  .contact-form form textarea{
+	
+	min-width:300px;
+}
+
+}
+	
